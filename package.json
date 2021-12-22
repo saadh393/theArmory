@@ -1,0 +1,20 @@
+{
+  "name": "TheArmory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js",
+    "tailwind": "npx tailwindcss -i ./dist/tailwind.css -o ./src/tailwind.css -w"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "electron": "^15.3.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "electron-reloader": "^1.2.1",
+    "save-dev": "^0.0.1-security"
+  }
+}
